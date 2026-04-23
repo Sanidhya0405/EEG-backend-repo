@@ -41,9 +41,7 @@ def _get_cors_origins() -> List[str]:
     return [
         "http://localhost:5173",
         "http://localhost:5174",
-        "https://eeg-new.vercel.app",
-        "https://eeg-new-develop.vercel.app",
-        "https://eeg-new-sachinkukkar.vercel.app",
+        "https://sachin-eeg.vercel.app",
     ]
 
 app.add_middleware(
