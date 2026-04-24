@@ -18,6 +18,7 @@ import TrainingTab from "./components/TrainingTab";
 import AuthTab from "./components/AuthTab";
 import MetricsTab from "./components/MetricsTab";
 import LogsTab from "./components/LogsTab";
+import EEGVisualizerTab from "./components/EEGVisualizerTab";
 
 function pct(v) {
   return `${(Number(v || 0) * 100).toFixed(2)}%`;
@@ -304,6 +305,7 @@ export default function App() {
       )}
 
       {tab === "logs" && <LogsTab authLogs={authLogs} health={health} />}
+      {tab === "visualizer" && <EEGVisualizerTab />}
     </Layout>
   );
 }

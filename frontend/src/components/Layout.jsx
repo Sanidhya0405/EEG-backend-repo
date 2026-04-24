@@ -19,6 +19,7 @@ export default function Layout({
     ["auth", "Authentication"],
     ["metrics", "Metrics"],
     ["logs", "Auth Logs"],
+    ["visualizer", "EEG Visualizer"],
   ];
 
   return (
