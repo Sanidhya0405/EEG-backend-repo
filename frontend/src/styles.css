@@ -279,10 +279,23 @@ h3 { margin: 0 0 8px; font-size: 1.15rem; }
 
 
 
+.header-logo {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.header-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .header-actions {
   display: flex;
   gap: 10px;
   align-items: center;
+  margin-left: auto;
 }
 
 .header h1 {

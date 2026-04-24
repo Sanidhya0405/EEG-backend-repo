@@ -1,4 +1,5 @@
 import Spinner from "./common/Spinner";
+import skitLogo from "../assets/skit-logo.png";
 
 export default function Layout({
   busy,
@@ -23,8 +24,11 @@ export default function Layout({
   return (
     <div className="shell">
       <header className="header">
+        <div className="header-logo">
+          <img src={skitLogo} alt="SKIT Logo" style={{ height: "48px", width: "auto" }} />
+        </div>
         <div className="header-text">
-          <h1>EEG Auth</h1>
+          <h1>SKIT, Jaipur</h1>
         </div>
         <div className="header-actions">
           <button
